@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./static/CSS/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./static/JS/script.js"></script>
+    <script src="./static/JS/fetch.js"></script>
+    <title>Home Page</title>
+</head>
+<body>
+    <!--Contenido principal de la página -->
+    <div id="header-content"></div>
+<!--Contenido principal de la página -->
+<header class="header-container">
+    <div class="image-overlay">
+        <div class="text-center">
+            <h1 class="overlay-text">Hello!</h1>
+            <h2 class="overlay-text">Welcome to my Website</h2>
+            <h2 class="overlay-text">I want to talk about the following breed of dogs: </h2>
+            <h2 class="overlay-text">Siberian huskies</h2>
+        </div>
+    </div>
+    <img src="static/images/Husky_home.webp" class="img-fluid header-image" alt="Husky_home">
+</header>    
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <section>
+                        <h1>Siberian huskies</h1>
+                        <p>
+                            The Siberian Husky is a medium-sized working sled dog breed. 
+                            The breed belongs to the Spitz genetic family. 
+                            It is recognizable by its thickly furred double coat, 
+                            erect triangular ears, and distinctive markings, and is 
+                            smaller than the similar-looking Alaskan Malamute.                            
+                        </p>
+                        <p>
+                            Siberian Huskies originated in Northeast Asia where.
+                            they are bred by the Chukchi people of Siberia for sled pulling, 
+                            and companionship. It is an active, energetic, resilient breed, 
+                            whose ancestors lived in the extremely cold and harsh environment 
+                            of the Siberian Arctic. William Goosak, a Russian fur trader, introduced 
+                            them to Nome, Alaska, during the Nome Gold Rush, initially as sled dogs 
+                            to work the mining fields and for expeditions through otherwise impassable 
+                            terrain. Today, the Siberian Husky is typically kept as a house 
+                            pet, though they are still frequently used as sled dogs by competitive 
+                            and recreational mushers.                            
+                            <a href="{% url 'siberian_husky' %}">Learn more</a>
+                        </p> 
+                    </section>
+                </div>
+                <div class="col-md-4">
+                    <div class="rotating-images-container d-flex">
+                        <img src="static/images/Husky_tour_1.webp" class="rotating-image img-fluid" alt="Siberian Husky 1">                        
+                        <img src="static/images/Husky_tour_2.webp" class="rotating-image img-fluid" alt="Siberian Husky 2">                        
+                        <img src="static/images/Husky_tour_3.webp" class="rotating-image img-fluid" alt="Siberian Husky 3">                        
+                        <img src="static/images/Husky_tour_4.webp" class="rotating-image img-fluid" alt="Siberian Husky 4">                        
+                    </div>
+                </div>                                                                              
+            </div>    
+        </div>
+    </main>
+    <footer id="footer-content"></footer>
+</body>
+</html>
