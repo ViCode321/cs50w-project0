@@ -103,3 +103,11 @@ img.header-image {
     width: 100%;
     height: 100%;
 }
+
+/* @media query para pantallas más pequeñas */
+@media (max-width: 767px) {
+    /* Agrega aquí los estilos responsivos para pantallas pequeñas */
+    .rotating-images-container {
+        max-width: 80px; /* Ajusta el ancho máximo según desees en pantallas pequeñas */
+    }
+}
