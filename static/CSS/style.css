@@ -105,3 +105,18 @@ img.header-image {
     width: 100%;
     height: 100%;
 }
+
+/* Agrega estilos para mostrar puntos en la lista */
+.list-unstyled.custom-list {
+    padding-left: 1.5em;
+}
+.list-unstyled.custom-list li {
+    list-style: none;
+    position: relative;
+    padding-left: 1em;
+}
+.list-unstyled.custom-list li::before {
+    content: "\2022"; /* Código del punto • */
+    position: absolute;
+    left: 0;
+}
