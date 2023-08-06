@@ -2,29 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./static/CSS/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="./static/JS/script.js"></script>
-    <script src="./static/JS/fetch.js"></script>
-    <title>Home Page</title>
+    <title>Home</title>
 </head>
 <body>
     <!--Contenido principal de la página -->
-    <div id="header-content"></div>
-<!--Contenido principal de la página -->
-<header class="header-container">
-    <div class="image-overlay">
-        <div class="text-center">
-            <h1 class="overlay-text">Hello!</h1>
-            <h2 class="overlay-text">Welcome to my Website</h2>
-            <h2 class="overlay-text">I want to talk about the following breed of dogs: </h2>
-            <h2 class="overlay-text">Siberian huskies</h2>
-        </div>
+    <div>
+        <!-- Barra de navegación -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">        
+            <div class="container">
+                <div class="d-flex">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="static/images/logo.webp" alt="logo" width="50" height="50" class="d-inline-block align-text-top">
+                        Wao!
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ms-auto" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="siberian_husky.html">Siberian Husky</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="characteristics.html">Characteristics</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="curiosities.html">Curiosities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tips.html">Tips</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mydogs.html">My Dogs</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </div>
-    <img src="static/images/Husky_home.webp" class="img-fluid header-image" alt="Husky_home">
-</header>    
+    <!--Contenido principal de la página -->
+    <div class="header-container">
+        <div class="image-overlay">
+            <div class="text-center">
+                <h1 class="overlay-text">Hello!</h1>
+                <h2 class="overlay-text">Welcome to my Website</h2>
+                <h2 class="overlay-text">I want to talk about the following breed of dogs: </h2>
+                <h2 class="overlay-text">Siberian huskies</h2>
+            </div>
+        </div>
+        <img src="static/images/Husky_home.webp" class="img-fluid header-image" alt="Husky_home">
+    </div>    
     <main>
         <div class="container">
             <div class="row">
@@ -53,17 +85,34 @@
                         </p> 
                     </section>
                 </div>
-                <div class="col-md-4">
-                    <div class="rotating-images-container d-flex">
-                        <img src="static/images/Husky_tour_1.webp" class="rotating-image img-fluid" alt="Siberian Husky 1">                        
-                        <img src="static/images/Husky_tour_2.webp" class="rotating-image img-fluid" alt="Siberian Husky 2">                        
-                        <img src="static/images/Husky_tour_3.webp" class="rotating-image img-fluid" alt="Siberian Husky 3">                        
-                        <img src="static/images/Husky_tour_4.webp" class="rotating-image img-fluid" alt="Siberian Husky 4">                        
-                    </div>
+                <div class="col-md-3">
+                    <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="5000">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="static/images/Husky_tour_1.webp" class="d-block img-fluid" alt="Siberian Husky 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="static/images/Husky_tour_2.webp" class="d-block img-fluid" alt="Siberian Husky 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="static/images/Husky_tour_3.webp" class="d-block img-fluid" alt="Siberian Husky 3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="static/images/Husky_tour_4.webp" class="d-block img-fluid" alt="Siberian Husky 4">
+                            </div>
+                        </div>
+                    </div> 
                 </div>                                                                                
             </div>    
         </div>
     </main>
-    <footer id="footer-content"></footer>
+    <section>
+        <footer>
+            <p>&copy; 2023 My First Website. All rights reserved.</p>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    </section>
 </body>
 </html>

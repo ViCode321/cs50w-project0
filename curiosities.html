@@ -3,345 +3,382 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="./static/CSS/style.css">
         <link rel="stylesheet" href="./static/CSS/custom.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script src="./static/JS/script.js"></script>
-        <script src="./static/JS/fetch.js"></script>
         <title>Curiosities</title>
     </head>
 <body>    
-    <div id="header-content"></div>        
-    <section>
-        <main>            
-            <section>
-                <div class="container">
-                    <h1>10 curiosities of Siberian huskies</h1>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="indice"> 
-                                <img src="static/images/Husky_pensativo.webp" alt="Siberian Husky boring" class="img-fluid header-image">
-                            </div>
+    <div>
+        <!-- Barra de navegación -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">        
+            <div class="container">
+                <div class="d-flex">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="static/images/logo.webp" alt="logo" width="50" height="50" class="d-inline-block align-text-top">
+                        Wao!
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ms-auto" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="siberian_husky.html">Siberian Husky</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="characteristics.html">Characteristics</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="curiosities.html">Curiosities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tips.html">Tips</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mydogs.html">My Dogs</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>        
+    </div>
+    <main>            
+        <section>
+            <div class="container">
+                <h1>10 curiosities of Siberian huskies</h1>
+                <p></p>
+                <p></p>
+                <p></p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="indice"> 
+                            <img src="static/images/Husky_pensativo.webp" alt="Siberian Husky boring" class="img-fluid header-image">
                         </div>
-                        <div class="col-md-8">                
-                            <h3>
-                                I want to show you 10 things you didn't know about the Siberian husky 
-                                that will surely surprise you, from morphological details to its appearance 
-                                throughout history.                                
-                            </h3>
-                            <h3>
-                                Keep reading about these 10 curiosities about the Siberian husky, one of the 
-                                oldest and most incredible dogs that exist, you will fall in love with the 
-                                breed even more!
-                            </h3>
-                        </div>                         
                     </div>
-                </div>                        
-            </section>
-            <p></p>
-            <p></p>
-            <p></p>
-            <section1>
-                <div class="container">
-                    <div class="indice custom-box">
-                        <ol id="ordered-list">
-                            <li>
-                                <a href="#number1">It is the dog most similar to the wolf</a>
-                            </li>
-                            <li>
-                                <a href="#number2">It can have one eye of each color.</a>
-                            </li>
-                            <li>
-                                <a href="#number3">Adapts wonderfully to different environments</a>
-                            </li>
-                            <li>
-                                <a href="#number4">His vocalization ability is unique</a>
-                            </li>
-                            <li>
-                                <a href="#number5">It is one of the oldest dogs in the world</a>
-                            </li>
-                            <li>
-                                <a href="#number6">The snow dog</a>
-                            </li>
-                            <li>
-                                <a href="#number7">They are born to run</a>
-                            </li>
-                            <li>
-                                <a href="#number8">They fit with different types of families</a>
-                            </li>
-                            <li>
-                                <a href="#number9">Was the husky a war dog?</a>
-                            </li>
-                            <li>
-                                <a href="#number10">Balto, an unprecedented hero</a>
-                            </li>
-                        </ol>                    
-                    </div>
+                    <div class="col-md-8">                
+                        <h3>
+                            I want to show you 10 things you didn't know about the Siberian husky 
+                            that will surely surprise you, from morphological details to its appearance 
+                            throughout history.                                
+                        </h3>
+                        <h3>
+                            Keep reading about these 10 curiosities about the Siberian husky, one of the 
+                            oldest and most incredible dogs that exist, you will fall in love with the 
+                            breed even more!
+                        </h3>
+                    </div>                         
                 </div>
-            </section1>
-            <p></p>
-            <p></p>
-            <p></p>                
-            <section2>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8">                
-                            <h1 id="number1">1. It is the dog most similar to the wolf</h1>
-                            <p>
-                                The husky is probably one of the dogs that most reminds us of the wolf,
-                                probably because of its pointy ears, penetrating gaze, and pronounced muzzle.
-                                Of course, remember that recent studies indicate that the dog does not descend from the wolf,
-                                but they are close relatives.
-                            </p>
-                            <p>   
-                                However, the Siberian husky is smaller than these large predators, since
-                                that the husky reaches around 56 and 60 centimeters in height at the withers,
-                                while wild wolves can measure between 80 or 85 centimeters
-                                tall at the withers.                                
-                            </p>
-                        </div>      
-                        <div class="col-md-4">
-                            <div class="indice"> 
-                                <img src="static/images/Husky_wolf.webp" alt="Siberian Husky vs Wolf" class="img-fluid header-image">
-                            </div>
-                        </div>                                          
-                    </div>
-                </div>                        
-            </section2>               
-            <p></p>
-            <p></p>
-            <p></p>
-            <section3>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8">                
-                            <h1 id="number2">2. It can have one eye of each color</h1>
-                            <p>
-                                Having one eye of each color is known as "heterochromia" and this quality 
-                                is generally due to a genetic mutation, which is hereditary. Heterochromia 
-                                is present in many species of animals, such as humans, and the truth is 
-                                that it causes
-                            </p>
-                        </div>      
-                        <div class="col-md-4">
-                            <div class="indice"> 
-                                <img src="static/images/Husky_heterochromian.webp" alt="Siberian Husky heterochromia" class="img-fluid header-image">
-                            </div>
-                        </div>                                           
-                    </div>
-                </div>                        
-            </section3>             
-            <p></p>
-            <p></p>
-            <p></p>
-            <section4>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8">                
-                            <h1 id="number3">3. Adapts wonderfully to different environments</h1>
-                            <p>
-                                The husky is a dog that adapts without problems to cold and icy climates: its coat 
-                                is testimony to its origins in Siberia. However, surprisingly, the husky is also 
-                                capable of adapting to temperate climates, unlike other Nordic dogs, such as the 
-                                Alaskan malamute, which usually suffers intense heat.
-                            </p>
-                            <p>
-                                The husky sheds its coat twice a year, once between spring and summer and once 
-                                between fall and winter. However, between the two moults, hair loss can also occur, 
-                                always in small amounts. In the case of observing more loss than normal, it is advisable 
-                                to go to the vet to rule out allergies and other health problems.                                
-                            </p>
-                        </div>      
-                        <div class="col-md-4">
-                            <div class="indice"> 
-                                <img src="static/images/Husky_adapt.webp" alt="Siberian Husky adapts" class="img-fluid header-image">
-                            </div>
-                        </div>                                           
-                    </div>
-                </div>                        
-            </section4> 
-            <p></p>
-            <p></p>
-            <p></p>
-            <section5>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8">                
-                            <h1 id="number4">4. His vocalization ability is unique</h1>
-                            <p>
-                                The husky is a particularly talkative dog, capable of emitting a variety of 
-                                sounds. It also stands out for its howl, which can be heard up to 15 kilometers 
-                                away. Some huskies appear to sing, talk, and even whine, however, they do 
-                                not usually bark.
-                            </p>     
-                        </div>      
-                        <div class="col-md-4">
-                            <div class="indice"> 
-                                <img src="static/images/Husky_voice.webp" alt="Siberian Husky voice" class="img-fluid header-image">
-                            </div>
-                        </div>                                           
-                    </div>
-                </div>                        
-            </section5> 
-            <p></p>
-            <p></p>
-            <p></p>
-            <section6>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8">                
-                            <h1 id="number5">5. It is one of the oldest dogs in the world</h1>
-                            <p>
-                                The husky is a particularly talkative dog, capable of emitting a variety of 
-                                sounds. It also stands out for its howl, which can be heard up to 15 kilometers 
-                                away. Some huskies appear to sing, talk, and even whine, however, they do 
-                                not usually bark.
-                            </p>     
-                        </div>      
-                        <div class="col-md-4">
-                            <div class="indice"> 
-                                <img src="static/images/Husky_olsdest-1.webp" alt="Siberian Husky olddest" class="img-fluid header-image">
-                            </div>
-                        </div>                                           
-                    </div>
-                </div>                        
-            </section6> 
-            <p></p>
-            <p></p>
-            <p></p>
-            <section7>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8">                
-                            <h1 id="number6">6. The snow dog</h1>
-                            <p>
-                                It's no secret that huskies love snow. Virtually all individuals 
-                                show some interest in it, probably because of the profound impact 
-                                this element has had on their history. Perhaps for this reason 
-                                they are also attracted to water and leaf litter in autumn.
-                            </p>     
-                        </div>                                                
-                    </div>
-                </div>                        
-            </section7> 
-            <p></p>
-            <p></p>
-            <p></p>
-            <section8>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8">                
-                            <h1 id="number7">7. They are born to run</h1>
-                            <p>
-                                Along with the Chukchi tribe, huskies worked as sled 
-                                dogs, carrying food and supplies from one place to 
-                                another, and contrary to popular belief, huskies did 
-                                not usually transport people. They were chosen to 
-                                carry out this task for various reasons, such as 
-                                resistance to cold, but mainly their ability to make 
-                                long journeys stood out. The sled was towed by about 
-                                twenty dogs and each of them performed a specific 
-                                function.                
-                            </p>     
-                        </div>                                                
-                        <div class="col-md-4">
-                            <div class="indice"> 
-                                <img src="static/images/Husky_run.webp" alt="Siberian Husky run" class="img-fluid header-image">
-                            </div>
-                        </div>                          
-                    </div>
-                </div>                        
-            </section8>             
-            <section9>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8">                
-                            <h1 id="number8">8. They fit with different types of families</h1>
-                            <p>
-                                The network is full of cute and funny videos of husky dogs, why is that? 
-                                It is undoubtedly an excellent playmate for children, a member of the team 
-                                when going on excursions or a sensitive and affectionate dog on a daily 
-                                basis. Its character is unique and variable, so much so that you must 
-                                strive to reinvent yourself and offer different forms of entertainment.                                              
-                            </p>     
-                        </div>                                                                          
-                    </div>
-                </div>                        
-            </section9>               
-            <section10>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8">                
-                            <h1 id="number9">9. Was the husky a war dog?</h1>
-                            <p>
-                                Probably if we think of war dogs, the story of the 
-                                German shepherd comes to mind, used as a messenger, 
-                                rescue dog and even as a "mine" dog. However, the 
-                                husky also stands out in the Second World War, 
-                                carrying out transport and communication tasks.                                          
-                            </p>     
-                        </div>                                                                          
-                        <div class="col-md-4">
-                            <div class="indice"> 
-                                <img src="static/images/Husky_war.webp" alt="Siberian Husky war" class="img-fluid header-image">
-                            </div>
-                        </div>  
-                    </div>
-                </div>                        
-            </section10> 
-            <p></p>
-            <p></p>
-            <p></p>
-            <section11>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8">                
-                            <h1 id="number10">10. Balto, an unprecedented hero</h1>
-                            <p>
-                                By far, the story of Balto, a mixed-breed husky, is one of the 
-                                most impressive surrounding the breed, in fact, his popularity was 
-                                such that Disney released two films explaining his story.                                        
-                            </p>     
-                            <p>
-                                It all starts in 1925, when a large number of children in a town 
-                                called Nome, Alaska, contracted diphtheria. Faced with the impossibility 
-                                of receiving the necessary medicines, a group of men together with their 
-                                dogs decided to undertake a dangerous journey to save the lives of the 
-                                town's children.                                
-                            </p>
-                            <p>
-                                Some men and dogs died, including the guide dogs, however, Balto was 
-                                the one who took command of the race, despite having no previous 
-                                experience as a leader. Fortunately, after five and a half days, they 
-                                reached their destination. The dogs were hailed as heroes and were 
-                                featured in newspapers across the country.                                
-                            </p>
-                        </div>                                                                          
-                        <div class="col-md-4">
-                            <div class="indice"> 
-                                <img src="static/images/husky-balto-1.webp" alt="Siberian Husky balto" class="img-fluid header-image">
-                            </div>
-                        </div>   
-                    </div>
-                </div>                        
-            </section11> 
-            <p></p>
-            <p></p>
-            <p></p>
-            <section12>
-                <div class="container">
-                    <div class="indice custom-box">                        
-                        <img src="static/images/husky-balto-2.webp" alt="Siberian Husky balto" class="img-fluid header-image">
-                        <a>Balto statue in Central Park (New York)</a>
-                    </div>
+            </div>                        
+        </section>
+        <p></p>
+        <p></p>
+        <p></p>
+        <section1>
+            <div class="container">
+                <div class="indice custom-box">
+                    <ol id="ordered-list">
+                        <li>
+                            <a href="#number1">It is the dog most similar to the wolf</a>
+                        </li>
+                        <li>
+                            <a href="#number2">It can have one eye of each color.</a>
+                        </li>
+                        <li>
+                            <a href="#number3">Adapts wonderfully to different environments</a>
+                        </li>
+                        <li>
+                            <a href="#number4">His vocalization ability is unique</a>
+                        </li>
+                        <li>
+                            <a href="#number5">It is one of the oldest dogs in the world</a>
+                        </li>
+                        <li>
+                            <a href="#number6">The snow dog</a>
+                        </li>
+                        <li>
+                            <a href="#number7">They are born to run</a>
+                        </li>
+                        <li>
+                            <a href="#number8">They fit with different types of families</a>
+                        </li>
+                        <li>
+                            <a href="#number9">Was the husky a war dog?</a>
+                        </li>
+                        <li>
+                            <a href="#number10">Balto, an unprecedented hero</a>
+                        </li>
+                    </ol>                    
                 </div>
-            </section12>
-        </main>
+            </div>
+        </section1>
+        <p></p>
+        <p></p>
+        <p></p>                
+        <section2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">                
+                        <h1 id="number1">1. It is the dog most similar to the wolf</h1>
+                        <p>
+                            The husky is probably one of the dogs that most reminds us of the wolf,
+                            probably because of its pointy ears, penetrating gaze, and pronounced muzzle.
+                            Of course, remember that recent studies indicate that the dog does not descend from the wolf,
+                            but they are close relatives.
+                        </p>
+                        <p>   
+                            However, the Siberian husky is smaller than these large predators, since
+                            that the husky reaches around 56 and 60 centimeters in height at the withers,
+                            while wild wolves can measure between 80 or 85 centimeters
+                            tall at the withers.                                
+                        </p>
+                    </div>      
+                    <div class="col-md-4">
+                        <div class="indice"> 
+                            <img src="static/images/Husky_wolf.webp" alt="Siberian Husky vs Wolf" class="img-fluid header-image">
+                        </div>
+                    </div>                                          
+                </div>
+            </div>                        
+        </section2>               
+        <p></p>
+        <p></p>
+        <p></p>
+        <section3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">                
+                        <h1 id="number2">2. It can have one eye of each color</h1>
+                        <p>
+                            Having one eye of each color is known as "heterochromia" and this quality 
+                            is generally due to a genetic mutation, which is hereditary. Heterochromia 
+                            is present in many species of animals, such as humans, and the truth is 
+                            that it causes
+                        </p>
+                    </div>      
+                    <div class="col-md-4">
+                        <div class="indice"> 
+                            <img src="static/images/Husky_heterochromian.webp" alt="Siberian Husky heterochromia" class="img-fluid header-image">
+                        </div>
+                    </div>                                           
+                </div>
+            </div>                        
+        </section3>             
+        <p></p>
+        <p></p>
+        <p></p>
+        <section4>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">                
+                        <h1 id="number3">3. Adapts wonderfully to different environments</h1>
+                        <p>
+                            The husky is a dog that adapts without problems to cold and icy climates: its coat 
+                            is testimony to its origins in Siberia. However, surprisingly, the husky is also 
+                            capable of adapting to temperate climates, unlike other Nordic dogs, such as the 
+                            Alaskan malamute, which usually suffers intense heat.
+                        </p>
+                        <p>
+                            The husky sheds its coat twice a year, once between spring and summer and once 
+                            between fall and winter. However, between the two moults, hair loss can also occur, 
+                            always in small amounts. In the case of observing more loss than normal, it is advisable 
+                            to go to the vet to rule out allergies and other health problems.                                
+                        </p>
+                    </div>      
+                    <div class="col-md-4">
+                        <div class="indice"> 
+                            <img src="static/images/Husky_adapt.webp" alt="Siberian Husky adapts" class="img-fluid header-image">
+                        </div>
+                    </div>                                           
+                </div>
+            </div>                        
+        </section4> 
+        <p></p>
+        <p></p>
+        <p></p>
+        <section5>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">                
+                        <h1 id="number4">4. His vocalization ability is unique</h1>
+                        <p>
+                            The husky is a particularly talkative dog, capable of emitting a variety of 
+                            sounds. It also stands out for its howl, which can be heard up to 15 kilometers 
+                            away. Some huskies appear to sing, talk, and even whine, however, they do 
+                            not usually bark.
+                        </p>     
+                    </div>      
+                    <div class="col-md-4">
+                        <div class="indice"> 
+                            <img src="static/images/Husky_voice.webp" alt="Siberian Husky voice" class="img-fluid header-image">
+                        </div>
+                    </div>                                           
+                </div>
+            </div>                        
+        </section5> 
+        <p></p>
+        <p></p>
+        <p></p>
+        <section6>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">                
+                        <h1 id="number5">5. It is one of the oldest dogs in the world</h1>
+                        <p>
+                            The husky is a particularly talkative dog, capable of emitting a variety of 
+                            sounds. It also stands out for its howl, which can be heard up to 15 kilometers 
+                            away. Some huskies appear to sing, talk, and even whine, however, they do 
+                            not usually bark.
+                        </p>     
+                    </div>      
+                    <div class="col-md-4">
+                        <div class="indice"> 
+                            <img src="static/images/Husky_olsdest-1.webp" alt="Siberian Husky olddest" class="img-fluid header-image">
+                        </div>
+                    </div>                                           
+                </div>
+            </div>                        
+        </section6> 
+        <p></p>
+        <p></p>
+        <p></p>
+        <section7>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">                
+                        <h1 id="number6">6. The snow dog</h1>
+                        <p>
+                            It's no secret that huskies love snow. Virtually all individuals 
+                            show some interest in it, probably because of the profound impact 
+                            this element has had on their history. Perhaps for this reason 
+                            they are also attracted to water and leaf litter in autumn.
+                        </p>     
+                    </div>                                                
+                </div>
+            </div>                        
+        </section7> 
+        <p></p>
+        <p></p>
+        <p></p>
+        <section8>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">                
+                        <h1 id="number7">7. They are born to run</h1>
+                        <p>
+                            Along with the Chukchi tribe, huskies worked as sled 
+                            dogs, carrying food and supplies from one place to 
+                            another, and contrary to popular belief, huskies did 
+                            not usually transport people. They were chosen to 
+                            carry out this task for various reasons, such as 
+                            resistance to cold, but mainly their ability to make 
+                            long journeys stood out. The sled was towed by about 
+                            twenty dogs and each of them performed a specific 
+                            function.                
+                        </p>     
+                    </div>                                                
+                    <div class="col-md-4">
+                        <div class="indice"> 
+                            <img src="static/images/Husky_run.webp" alt="Siberian Husky run" class="img-fluid header-image">
+                        </div>
+                    </div>                          
+                </div>
+            </div>                        
+        </section8>             
+        <section9>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">                
+                        <h1 id="number8">8. They fit with different types of families</h1>
+                        <p>
+                            The network is full of cute and funny videos of husky dogs, why is that? 
+                            It is undoubtedly an excellent playmate for children, a member of the team 
+                            when going on excursions or a sensitive and affectionate dog on a daily 
+                            basis. Its character is unique and variable, so much so that you must 
+                            strive to reinvent yourself and offer different forms of entertainment.                                              
+                        </p>     
+                    </div>                                                                          
+                </div>
+            </div>                        
+        </section9>               
+        <section10>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">                
+                        <h1 id="number9">9. Was the husky a war dog?</h1>
+                        <p>
+                            Probably if we think of war dogs, the story of the 
+                            German shepherd comes to mind, used as a messenger, 
+                            rescue dog and even as a "mine" dog. However, the 
+                            husky also stands out in the Second World War, 
+                            carrying out transport and communication tasks.                                          
+                        </p>     
+                    </div>                                                                          
+                    <div class="col-md-4">
+                        <div class="indice"> 
+                            <img src="static/images/Husky_war.webp" alt="Siberian Husky war" class="img-fluid header-image">
+                        </div>
+                    </div>  
+                </div>
+            </div>                        
+        </section10> 
+        <p></p>
+        <p></p>
+        <p></p>
+        <section11>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">                
+                        <h1 id="number10">10. Balto, an unprecedented hero</h1>
+                        <p>
+                            By far, the story of Balto, a mixed-breed husky, is one of the 
+                            most impressive surrounding the breed, in fact, his popularity was 
+                            such that Disney released two films explaining his story.                                        
+                        </p>     
+                        <p>
+                            It all starts in 1925, when a large number of children in a town 
+                            called Nome, Alaska, contracted diphtheria. Faced with the impossibility 
+                            of receiving the necessary medicines, a group of men together with their 
+                            dogs decided to undertake a dangerous journey to save the lives of the 
+                            town's children.                                
+                        </p>
+                        <p>
+                            Some men and dogs died, including the guide dogs, however, Balto was 
+                            the one who took command of the race, despite having no previous 
+                            experience as a leader. Fortunately, after five and a half days, they 
+                            reached their destination. The dogs were hailed as heroes and were 
+                            featured in newspapers across the country.                                
+                        </p>
+                    </div>                                                                          
+                    <div class="col-md-4">
+                        <div class="indice"> 
+                            <img src="static/images/husky-balto-1.webp" alt="Siberian Husky balto" class="img-fluid header-image">
+                        </div>
+                    </div>   
+                </div>
+            </div>                        
+        </section11> 
+        <p></p>
+        <p></p>
+        <p></p>
+        <section12>
+            <div class="container">
+                <div class="indice custom-box">                        
+                    <img src="static/images/husky-balto-2.webp" alt="Siberian Husky balto" class="img-fluid header-image">
+                    <a>Balto statue in Central Park (New York)</a>
+                </div>
+            </div>
+        </section12>
+    </main>
+    <section>
+        <footer>
+            <p>&copy; 2023 My First Website. All rights reserved.</p>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     </section>
-    <footer id="footer-content"></footer>
 </body>
 </html>
