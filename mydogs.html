@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">          
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./static/CSS/style.css">
     <link rel="stylesheet" href="./static/SCSS/output.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>My Dogs</title>
 </head>
 <body>
@@ -13,12 +13,10 @@
         <!-- Barra de navegación -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">        
             <div class="container">
-                <div class="d-flex">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="static/images/logo.webp" alt="logo" width="50" height="50" class="d-inline-block align-text-top">
-                        Wao!
-                    </a>
-                </div>
+                <a class="navbar-brand" href="index.html">
+                    <img src="static/images/logo.webp" alt="logo" width="50" height="50" class="d-inline-block align-text-top">
+                    Wao!
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -45,90 +43,88 @@
         </nav>        
     </div>  
     <main>    
-        <div class="container">
-            <h1>These are my dogs</h1>
-            
-            <!-- Grid Layout de Bootstrap: Dos columnas -->
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="indice custom-box">
-                        <div class="d-flex align-items-center"> <!-- Agregamos una clase d-flex y align-items-center -->
-                            <img src="static/images/Vela_.webp" alt="Vela" class="img-fluid header-image">
-                            <table class="table ml-3"> 
-                                <tbody>
-                                    <tr>
-                                        <td>Name:</td>
-                                        <td class="word">Vela</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Breed:</td>
-                                        <td class="word">Siberian Husky</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Age:</td>
-                                        <td class="word">4 years</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Sex:</td>
-                                        <td class="word">female</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Color:</td>
-                                        <td class="word">Agouti and black</td>       
-                                        <td rowspan="1"><img src="static/images/Color_B_W_B.webp" alt="Color Kira" class="img-fluid"></td>                                                                                                                                                                   
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <p>This is Bella, she's Kira's mother. She likes to run, she loves to play with the balls, she is a great friend, and she is an incredible mother. She raised and took care of her three pups, of which I only stayed with Kira.</p>                        
-                    </div>                     
-                </div>
-                <div class="col-md-6">
-                    <div class="indice custom-box">
-                        <div class="d-flex align-items-center"> <!-- Agregamos una clase d-flex y align-items-center -->
-                            <img src="static/images/Kira_.webp" alt="Kira" class="img-fluid header-image">
-                            <table class="table ml-3">
-                                <tbody>
-                                    <tr>
-                                        <td>Name:</td>
-                                        <td class="word">Kira</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Breed:</td>
-                                        <td class="word">Siberian Husky</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Age:</td>
-                                        <td class="word">5 months</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Sex:</td>
-                                        <td class="word">female</td>                                    
-                                    </tr>
-                                    <tr>
-                                        <td>Color:</td>
-                                        <td class="word">White and gray</td>    
-                                        <td rowspan="1"><img src="static/images/Color_G_W.webp" alt="Color Kira" class="img-fluid"></td>                                                                                                                                                                   
-                                    </tr>                                
-                                </tbody>
-                            </table>
-                        </div>
-                        <p>This is Kira, she's the Vela son's. She loves play with Vela, but sometimes she is very naughty. She was the only one who stayed with me of her three sisters</p>
-                    </div>                                     
+        <section>
+            <div class="container">
+                <h1 class="text-center mt-4">These are my dogs</h1>
+                
+                <!-- Grid Layout de Bootstrap: Dos columnas -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="indice custom-box">
+                            <div class="d-flex align-items-center"> <!-- Agregamos una clase d-flex y align-items-center -->
+                                <img src="static/images/Vela_.webp" alt="Vela" class="img-fluid header-image">
+                                <table class="table ml-3"> 
+                                    <tbody>
+                                        <tr>
+                                            <td>Name:</td>
+                                            <td class="word">Vela</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Breed:</td>
+                                            <td class="word">Siberian Husky</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Age:</td>
+                                            <td class="word">4 years</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Sex:</td>
+                                            <td class="word">female</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Color:</td>
+                                            <td class="word">Agouti and black</td>
+                                            <td rowspan="1"><img src="static/images/Color_B_W_B.webp" alt="Color Kira" class="img-fluid"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <p>This is Bella, she's Kira's mother. She likes to run, she loves to play with the balls, she is a great friend, and she is an incredible mother. She raised and took care of her three pups, of which I only stayed with Kira.</p>                        
+                        </div>                     
+                    </div>
+                    <div class="col-md-6">
+                        <div class="indice custom-box">
+                            <div class="d-flex align-items-center"> <!-- Agregamos una clase d-flex y align-items-center -->
+                                <img src="static/images/Kira_.webp" alt="Kira" class="img-fluid header-image">
+                                <table class="table ml-3">
+                                    <tbody>
+                                        <tr>
+                                            <td>Name:</td>
+                                            <td class="word">Kira</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Breed:</td>
+                                            <td class="word">Siberian Husky</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Age:</td>
+                                            <td class="word">5 months</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Sex:</td>
+                                            <td class="word">female</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Color:</td>
+                                            <td class="word">White and gray</td>
+                                            <td rowspan="1"><img src="static/images/Color_G_W.webp" alt="Color Kira" class="img-fluid"></td>
+                                        </tr>                                
+                                    </tbody>
+                                </table>
+                            </div>
+                            <p>This is Kira, she's the Vela son's. She loves play with Vela, but sometimes she is very naughty. She was the only one who stayed with me of her three sisters</p>
+                        </div>                                     
+                    </div>
                 </div>
             </div>
-        </div>
-    </main>
-        <section>
-            <footer>
-                <p>&copy; 2023 My First Website. All rights reserved.</p>
-            </footer>
-            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script>
-            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         </section>
+    </main>
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2023 My First Website. All rights reserved.</p>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
-
-
