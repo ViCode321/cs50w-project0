@@ -5,6 +5,8 @@
   font-size: 18px;
   border: 2px solid black;
   border-collapse: collapse;
+  width: 100%;
+  overflow-x: auto;
 }
 
 .word {
